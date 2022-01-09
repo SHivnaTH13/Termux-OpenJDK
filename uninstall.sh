@@ -4,12 +4,12 @@
 
 if [ -e $PREFIX/bin/javac ]
 then
-	echo -e "\e[32mJava is being uninstall..."
-	echo
-	dpkg --remove openjdk-8-jdk
-	exit
+  echo -e "\e[32mJava is being uninstall..."
+  echo
+  apt remove openjdk-8-jdk -y
+  exit
 else
-	echo -e "\e[32mJava not installed"
-	echo
-	exit
+  echo -e "\e[32mJava not installed"
+  echo
+  exit
 fi
