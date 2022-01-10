@@ -12,7 +12,7 @@ then
 else
   if [ -e $PREFIX/bin/dx ]
   then
-    apt remove dx
+    apt remove dx -y
   fi
 
 #Actual installation
