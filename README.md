@@ -21,7 +21,3 @@ This release includes following commands
 - javadoc
 
 Java command is based on Android SDK's dx tool.
-<br>If java program have separate file for method class then
-
-Syntax for java command is :
-<br>`java MainClass MethodClass`
